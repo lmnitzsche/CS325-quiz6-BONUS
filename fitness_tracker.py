@@ -105,7 +105,8 @@ class ActivityMonitor:
         activity_mapping = {
             "steps": Steps,
             "distance": Distance,
-            "calories": Calories
+            "calories": Calories,
+            "swimming": Swimming
         }
         return activity_mapping.get(activity_type)
 
